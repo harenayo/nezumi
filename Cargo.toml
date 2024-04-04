@@ -1,6 +1,6 @@
 [package]
 name = "nezumi"
-version = "0.0.0"
+version = "0.1.0"
 authors = ["Harenayo"]
 edition = "2021"
 description = "A set of utilities for keyboards and mice"
