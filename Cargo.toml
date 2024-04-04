@@ -1,0 +1,15 @@
+[package]
+name = "nezumi"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+eyre = "0.6.12"
+rustc-hash = "1.1.0"
+serde = { version = "1.0.197", features = ["derive"] }
+toml = { version = "0.8.12", features = ["parse"] }
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+windows = { version = "0.54.0", features = ["Win32_System_LibraryLoader", "Win32_UI_Input_KeyboardAndMouse", "Win32_UI_WindowsAndMessaging"] }
+keymacro = { git = "https://github.com/harenayo/keymacro", tag = "0.2.0" }
