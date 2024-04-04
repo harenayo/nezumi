@@ -1,7 +1,12 @@
 [package]
 name = "nezumi"
 version = "0.0.0"
+authors = ["Harenayo"]
 edition = "2021"
+description = "A set of utilities for keyboards and mice"
+readme = "README.md"
+repository = "https://github.com/harenayo/nezumi"
+license = "MIT"
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive"] }
